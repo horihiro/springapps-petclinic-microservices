@@ -4,11 +4,7 @@ spring:
     config:
       server:
         git:
-<<<<<<< HEAD
-          uri: https://github.com/joyoji/springapps-petclinic-microservices-config
-=======
           uri: https://github.com/horihiro/spring-petclinic-microservices-config
->>>>>>> a99149c (update config url)
         # Use the File System Backend to avoid git pulling. Enable "native" profile in the Config Server.
         native:
           searchLocations: file:///${GIT_REPO}
