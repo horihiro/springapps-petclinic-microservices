@@ -3,9 +3,9 @@ on:
   # 手動実行用トリガー
   workflow_dispatch:
 env:
-  AZURE_SUBSCRIPTION: SubscriptionId # customize this
-  SPRING_APPS_SERVICE: petclinic-spring-apps # customize this
-  RESOURCE_GROUP: SPRING-APPS-RG # customize this
+  AZURE_SUBSCRIPTION: e2b09768-d968-4356-bea3-1e1af7be4760 # customize this
+  SPRING_APPS_SERVICE: spapp-appinv-handson # customize this
+  RESOURCE_GROUP: rg-appinv-handson-springapps # customize this
   # ==== APPS ====:
   API_GATEWAY: api-gateway
   # ==== JARS ====:
